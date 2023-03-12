@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="container-fluid position-relative p-0">
       <nav className="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <Link to="/index" className="navbar-brand p-0">
+        <Link to="/" className="navbar-brand p-0">
           <h1 className="m-0">
             <i className="fa fa-user-tie me-2"></i>Startup
           </h1>
@@ -20,7 +20,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto py-0">
-            <Link to="/index" className="nav-item nav-link">
+            <Link to="/" className="nav-item nav-link">
               Home
             </Link>
             <Link to="/about" className="nav-item nav-link">

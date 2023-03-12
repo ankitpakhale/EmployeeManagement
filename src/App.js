@@ -25,19 +25,17 @@ function App() {
       <Router>
         <TopBar />
         <Navbar />
-        <main className="py-3">
-          <Routes>
-            <Route path="/" exact element={<Index />} />
-            <Route path="/about" exact element={<About />} />
-            <Route path="/contact" exact element={<Contact />} />
-            <Route path="/feature" exact element={<Feature />} />
-            <Route path="/login" exact element={<Login />} />
-            <Route path="/profile" exact element={<Profile />} />
-            <Route path="/service" exact element={<Service />} />
-            <Route path="/task" exact element={<Task />} />
-            <Route path="/team" exact element={<Team />} />
-          </Routes>
-        </main>
+        <Routes>
+          <Route path="/" exact element={<Index />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/feature" exact element={<Feature />} />
+          <Route path="/login" exact element={<Login />} />
+          <Route path="/profile" exact element={<Profile />} />
+          <Route path="/service" exact element={<Service />} />
+          <Route path="/task" exact element={<Task />} />
+          <Route path="/team" exact element={<Team />} />
+        </Routes>
         <Footer />
       </Router>
     </>

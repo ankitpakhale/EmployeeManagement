@@ -1,6 +1,9 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import ServicesBox from "../Container/ServicesBox";
+
+
 const Index = () => {
   return (
     <>
@@ -64,7 +67,10 @@ const Index = () => {
             data-bs-target="#header-carousel"
             data-bs-slide="prev"
           >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
             <span className="visually-hidden">Previous</span>
           </button>
           <button
@@ -73,7 +79,10 @@ const Index = () => {
             data-bs-target="#header-carousel"
             data-bs-slide="next"
           >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
@@ -183,7 +192,9 @@ const Index = () => {
           <div className="row g-5">
             <div className="col-lg-7">
               <div className="section-title position-relative pb-3 mb-5">
-                <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
+                <h5 className="fw-bold text-primary text-uppercase">
+                  About Us
+                </h5>
                 <h1 className="mb-0">
                   The Best IT Solution With 10 Years of Experience
                 </h1>
@@ -197,16 +208,18 @@ const Index = () => {
               <div className="row g-0 mb-3">
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                   <h5 className="mb-3">
-                    <i className="fa fa-check text-primary me-3"></i>Award Winning
+                    <i className="fa fa-check text-primary me-3"></i>Award
+                    Winning
                   </h5>
                   <h5 className="mb-3">
-                    <i className="fa fa-check text-primary me-3"></i>Professional
-                    Staff
+                    <i className="fa fa-check text-primary me-3"></i>
+                    Professional Staff
                   </h5>
                 </div>
                 <div className="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
                   <h5 className="mb-3">
-                    <i className="fa fa-check text-primary me-3"></i>24/7 Support
+                    <i className="fa fa-check text-primary me-3"></i>24/7
+                    Support
                   </h5>
                   <h5 className="mb-3">
                     <i className="fa fa-check text-primary me-3"></i>Fair Prices
@@ -251,7 +264,9 @@ const Index = () => {
             className="section-title text-center position-relative pb-3 mb-5 mx-auto"
             style={{ maxWidth: "600px" }}
           >
-            <h5 className="fw-bold text-primary text-uppercase">Why Choose Us</h5>
+            <h5 className="fw-bold text-primary text-uppercase">
+              Why Choose Us
+            </h5>
             <h1 className="mb-0">
               We Are Here to Grow Your Business Exponentially
             </h1>
@@ -319,7 +334,7 @@ const Index = () => {
                 <div className="col-12 wow zoomIn" data-wow-delay="0.8s">
                   <div
                     className="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
-                  style={{ width: "60px", height: "60px" }}
+                    style={{ width: "60px", height: "60px" }}
                   >
                     <i className="fa fa-phone-alt text-white"></i>
                   </div>
@@ -343,7 +358,9 @@ const Index = () => {
             className="section-title text-center position-relative pb-3 mb-5 mx-auto"
             style={{ maxWidth: "600px" }}
           >
-            <h5 className="fw-bold text-primary text-uppercase">Our Services</h5>
+            <h5 className="fw-bold text-primary text-uppercase">
+              Our Services
+            </h5>
             <h1 className="mb-0">
               Custom IT Solutions for Your Successful Business
             </h1>
